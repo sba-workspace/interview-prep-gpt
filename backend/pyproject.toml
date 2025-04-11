@@ -1,0 +1,33 @@
+[project]
+name = "interview-prep-gpt"
+version = "0.1.0"
+description = "Backend for AI-powered interview coach"
+authors = [
+    {name = "Siddharth Bariya",email = "sba.workspace@gmail.com"}
+]
+#readme = "README.md"
+package-mode = false
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.103.1"
+uvicorn = "^0.23.2"
+langchain = "^0.1.16"
+google-cloud-speech = "^2.21.0"
+pydantic = "^2.3.0"
+python-multipart = "^0.0.6"
+websockets = "^11.0.3"
+requests = "^2.32.3"
+google-cloud-aiplatform = "^1.26.1"
+langchain-google-genai = "1.0.3"
+python-dotenv = "^1.1.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+httpx = "^0.24.1"
+black = "^23.7.0"
+isort = "^5.12.0"
+pytest-cov = "^4.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

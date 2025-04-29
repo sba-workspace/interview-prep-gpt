@@ -1,6 +1,6 @@
 # InterviewPrepGPT
 
-**InterviewPrepGPT** is an AI-powered behavioral interview coach that helps users practice mock interview questions and receive real-time feedback. It features a chat-style interface, voice input support, and GPT-based feedback leveraging few-shot prompt chaining and memory components.
+**InterviewPrepGPT** is an AI-powered behavioral interview coach that helps users practice mock interview questions and receive real-time feedback. It features voice input support, and GPT-based feedback leveraging few-shot prompt chaining and memory components.
 
 ---
 
